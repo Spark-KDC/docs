@@ -1,14 +1,12 @@
 import { defineConfig } from 'vitepress'
 
-// https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "Spark KFPU Data Challenge",
+  title: "Spark КФУ Дата Челлендж",
   description: "A documentation for KPFU Data Challenge dataset model",
   themeConfig: {
-    // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: 'Главная', link: '/' },
+      { text: 'Документация', link: '/markdown-examples' }
     ],
 
     sidebar: [
@@ -22,7 +20,11 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
-    ]
+      { icon: 'github', link: 'https://github.com/spark-kdc/docs' }
+    ],
+
+    search: {
+      provider: 'local'
+    }
   }
 })
