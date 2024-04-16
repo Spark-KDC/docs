@@ -7,6 +7,6 @@ hero:
   actions:
     - theme: brand
       text: Читать
-      link: /markdown-examples
+      link: /data-model/index.md
 ---
 

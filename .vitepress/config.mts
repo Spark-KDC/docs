@@ -6,16 +6,13 @@ export default defineConfig({
   themeConfig: {
     nav: [
       { text: 'Главная', link: '/' },
-      { text: 'Документация', link: '/markdown-examples' }
+      { text: 'Документация', link: '/data-model/index.md' }
     ],
 
     sidebar: [
       {
-        text: 'Examples',
-        items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
-        ]
+        text: 'Модель данных',
+        link: '/data-model/index.md'
       }
     ],
 
