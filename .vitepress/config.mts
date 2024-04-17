@@ -12,7 +12,18 @@ export default defineConfig({
     sidebar: [
       {
         text: 'Модель данных',
-        link: '/data-model/index.md'
+        link: '/data-model/index.md',
+        items: [
+          {
+            text: 'Образование',
+            link: '/data-model/education/index.md',
+            items: [
+              { text: 'Студенты', link: '/data-model/education/students.md' },
+              { text: 'Успеваемость', link: '/data-model/education/performance.md' },
+              { text: 'Сотрудники', link: '/data-model/education/employee.md' }
+            ]
+          }
+        ]
       }
     ],
 
