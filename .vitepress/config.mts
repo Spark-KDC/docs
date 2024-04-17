@@ -22,6 +22,13 @@ export default defineConfig({
               { text: 'Успеваемость', link: '/data-model/education/performance.md' },
               { text: 'Сотрудники', link: '/data-model/education/employee.md' }
             ]
+          },
+          {
+            text: 'Наука',
+            link: '/data-model/science/index.md',
+            items: [
+              { text: 'Рейтинг НПР', link: '/data-model/science/rating.md' }
+            ]
           }
         ]
       }
