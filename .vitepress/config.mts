@@ -29,6 +29,16 @@ export default defineConfig({
             items: [
               { text: 'Рейтинг НПР', link: '/data-model/science/rating.md' }
             ]
+          },
+          {
+            text: 'Управленческие и обеспечивающие процессы',
+            link: '/data-model/management-and-support-processes/index.md',
+            items: [
+              { text: 'Смета', link: '/data-model/management-and-support-processes/estimates.md' },
+              { text: 'ИТ-оборудование', link: '/data-model/management-and-support-processes/it-equipment.md' },
+              { text: 'Научное оборудование', link: '/data-model/management-and-support-processes/scientific-equipment.md' },
+              { text: 'Здания', link: '/data-model/management-and-support-processes/building.md' },
+            ]
           }
         ]
       }
