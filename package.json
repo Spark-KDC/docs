@@ -3,11 +3,11 @@
   "version": "1.0.0",
   "description": "KPFU Data Challenge model documentation website",
   "main": "index.js",
-  "homepage": "./",
+  "homepage": "./docs",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "docs:dev": "vitepress dev",
-    "docs:build": "vitepress build --base=./",
+    "docs:build": "vitepress build --base=/docs/",
     "docs:preview": "vitepress preview"
   },
   "repository": {
