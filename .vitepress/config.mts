@@ -3,6 +3,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "Spark КФУ Дата Челлендж",
   description: "A documentation for KPFU Data Challenge dataset model",
+  base: '/',
   themeConfig: {
     nav: [
       { text: 'Главная', link: '/' },
